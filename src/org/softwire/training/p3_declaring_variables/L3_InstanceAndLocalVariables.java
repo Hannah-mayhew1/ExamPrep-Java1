@@ -10,9 +10,9 @@ public class L3_InstanceAndLocalVariables {
 
         MyClass myClass = new MyClass();
 
-        myClass.doThing();
-        myClass.doThing();
-        myClass.doThing();
+        myClass.doThing(); // 1, 1
+        myClass.doThing(); // 2, 1
+        myClass.doThing(); // 3, 1
 
     }
 }

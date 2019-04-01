@@ -10,7 +10,7 @@ public class L2_WholeNumbers {
 
 //        byte byteOne = 127;
 //        byte byteTwo = -128;
-//        byte byteThree = 128;
+//        byte byteThree = 128; // no
 //
 //        methodThatTakesAByte(byteOne);
 //        methodThatTakesAByte(127);
@@ -22,7 +22,7 @@ public class L2_WholeNumbers {
 
 //        short shortOne = 32767;
 //        short shortTwo = -32768;
-//        short shortThree = 12345678;
+//        short shortThree = 12345678; // no
 
 
         // ??????????????????????????????????????????
@@ -32,11 +32,11 @@ public class L2_WholeNumbers {
 //        int intOne = 2147483647;
 //        int intTwo = -2147483648;
 //
-//        long longOne = 1234567890123456789;
+//        long longOne = 1234567890123456789; // no
 //        long longTwo = 1234567890123456789L;
 //        long longThree = 1234567890123456789l;
 //
-//        int intThree = 123L;
+//        int intThree = 123L; // no
 
 
         // ???????????????
@@ -44,9 +44,9 @@ public class L2_WholeNumbers {
         // ???????????????
 
         byte  aByte = 123;
-//        short aShort = aByte;
-//        int   anInt = aShort;
-//        long  aLong = anInt;
+//        short aShort = aByte; // yes
+//        int   anInt = aShort; // yes
+//        long  aLong = anInt; // yes
 
 
         // ???????????????
@@ -54,9 +54,9 @@ public class L2_WholeNumbers {
         // ???????????????
 
         long  bLong  = 123L;
-//        int   bInt   = bLong;
-//        short bShort = bInt;
-//        byte  bByte  = bShort;
+//        int   bInt   = bLong; // no
+//        short bShort = bInt; // no
+//        byte  bByte  = bShort; // no
 
 
         // ???????????????????????????????????
@@ -81,18 +81,18 @@ public class L2_WholeNumbers {
         // ??????????????????????????????????????????
 
         int intEight  = 123456;
-//        int intNine   = 123_456;
-//        int intTen    = 123_456_;
-//        int intEleven = _123_456;
+//        int intNine   = 123_456; //yes
+//        int intTen    = 123_456_; //no
+//        int intEleven = _123_456; //no
 
         double doubleOne   =        123.456;
-//        double doubleTwo   =    123_456.789;
-//        double doubleThree =    123_456.789_012;
-//        double doubleFour  =   123_456_.789_012;
-//        double doubleFive  =    123_456._789_012;
-//        double doubleSix   =    123_456.789_012_;
-//        double doubleSeven =   _123_456.789_012;
-//        double doubleEight = 123____456.789;
+//        double doubleTwo   =    123_456.789; //yes
+//        double doubleThree =    123_456.789_012; //yes
+//        double doubleFour  =   123_456_.789_012; //no
+//        double doubleFive  =    123_456._789_012; //no
+//        double doubleSix   =    123_456.789_012_; // no
+//        double doubleSeven =   _123_456.789_012; // no
+//        double doubleEight = 123____456.789; //yes
 
 
     }

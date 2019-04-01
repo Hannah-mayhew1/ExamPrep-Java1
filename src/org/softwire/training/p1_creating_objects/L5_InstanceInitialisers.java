@@ -14,7 +14,7 @@ public class L5_InstanceInitialisers {
     }
 }
 
-
+// the only time to use an instance initialiser is when you are initilising something particularly complicated however this could be done in a constructor
 class Elephant {
 
     public int age;

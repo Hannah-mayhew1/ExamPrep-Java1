@@ -14,17 +14,19 @@ public class L7_OrderOfInitialisation {
 class Giraffe {
 
     {
-        age = 5;
+        age = 5; //instance initialiser
     }
 
-    public int age = 4;
+    public int age = 4; // instance variable
 
-    public Giraffe() {
+    public Giraffe() { // constructor
         age = 3;
     }
 
     {
-        age = 6;
+        age = 6; // instance initialiser
     }
 
+    // processes the instance/field variables first - in order they appear - age 5, age 4, then age 6
+    // processes the constructor last which overrides the previous declarations
 }

@@ -10,13 +10,13 @@ public class L4_InstanceOrLocal {
 // ????????????????????
 
 class SomeClass {
-    int intA;
-    { int intB; }
-    int intC;
+    int intA; //instance
+    { int intB; } // local - inside braces
+    int intC; // instance
     public SomeClass() {
-        int intD;
+        int intD; // local
     }
     private void init() {
-        int intE;
+        int intE; // local
     }
 }

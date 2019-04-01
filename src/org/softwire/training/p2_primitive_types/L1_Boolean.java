@@ -7,16 +7,16 @@ public class L1_Boolean {
         boolean thisIsTrue = true;
         boolean thisIsFalse = false;
 
-        System.out.println("thisIsTrue: " + thisIsTrue);
-        System.out.println("thisIsFalse: " + thisIsFalse);
+        System.out.println("thisIsTrue: " + thisIsTrue); //true
+        System.out.println("thisIsFalse: " + thisIsFalse); //false
         System.out.println("");
 
 
         boolean oneEqualsTwo = (1 == 2);
         boolean twoGreaterThanOne = (2 > 1);
 
-        System.out.println("oneEqualsTwo: " + oneEqualsTwo);
-        System.out.println("twoGreaterThanOne: " + twoGreaterThanOne);
+        System.out.println("oneEqualsTwo: " + oneEqualsTwo); // false
+        System.out.println("twoGreaterThanOne: " + twoGreaterThanOne); // true
         System.out.println("");
 
 
@@ -25,7 +25,7 @@ public class L1_Boolean {
 
         boolean helloEqualsSumOfLetters = hello.equals(sumOfLetters);
 
-        System.out.println("helloEqualsSumOfLetters: " + helloEqualsSumOfLetters);
+        System.out.println("helloEqualsSumOfLetters: " + helloEqualsSumOfLetters); //true
         System.out.println("");
 
 

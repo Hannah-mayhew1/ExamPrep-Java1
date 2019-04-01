@@ -15,7 +15,7 @@ public class L6_VariableScope {
 //        }
 //
 //        System.out.println(price);
-//        System.out.println(discount);
+//        System.out.println(discount); - no because variable is only declared within if statement
     }
 
 
@@ -33,7 +33,7 @@ public class L6_VariableScope {
 //        }
 //
 //        System.out.println(price);
-//        System.out.println(discount);
+//        System.out.println(discount); yes
     }
 
 
@@ -44,7 +44,7 @@ public class L6_VariableScope {
 
 //        int discount;
 //        if (price > 100) {
-//            int discount = 20;
+//            int discount = 20; // no need to declare type again
 //        }
 //        else {
 //            int discount = 5;
@@ -58,7 +58,7 @@ public class L6_VariableScope {
 
 
 // ???????????????
-// Will this work?
+// Will this work?    yes
 // ???????????????
 class AnotherClass {
 

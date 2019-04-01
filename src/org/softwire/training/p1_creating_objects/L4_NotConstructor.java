@@ -17,6 +17,6 @@ class Dog {
 
     public void Dog() {
         age = 6;
-    }
+    } // this is a method and is never called therefore the dogs age is 5
 
 }

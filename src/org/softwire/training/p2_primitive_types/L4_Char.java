@@ -18,3 +18,5 @@ public class L4_Char {
         System.out.println(arrayOfChars[0]);
     }
 }
+
+//aChar ++ increments character value to 'b'

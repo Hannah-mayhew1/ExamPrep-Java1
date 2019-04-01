@@ -8,6 +8,12 @@ public class L7_DefaultValues {
         // What will this print?
         // ?????????????????????
 
+        //false
+        // 0
+        // 0.0
+        // nothing
+        // null
+
         ClassyClass classyClass = new ClassyClass();
 
         System.out.println("theBool: " + classyClass.theBool);

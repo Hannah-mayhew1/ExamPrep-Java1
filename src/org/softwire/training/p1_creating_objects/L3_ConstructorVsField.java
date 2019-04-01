@@ -13,10 +13,11 @@ public class L3_ConstructorVsField {
 
 class Cat {
 
-    public int age = 4;
+    public int age = 4; // field or instance variable
 
-    public Cat() {
+    public Cat() { // constructor
         age = 3;
     }
+    // The cat's age is 3 because there is a constructor present which overrides the instance variable
 
 }
